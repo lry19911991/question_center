@@ -40,7 +40,7 @@ public class UcTest {
     public void getBaiWantTest() {
 
         HashMap map = getRequestHeader();
-        String content = NetHelper.getHttp("http://140.143.49.31/api/ans2?key=xigua&wdcallback=jQuery1124010749807232059538_1517450409540&_=1517450409541", map);
+        String content = NetHelper.getHttp("http://answer.sm.cn/answer/curr?format=json&_t=1517461071964&activity=million", map);
         System.out.println(content);
 
     }
